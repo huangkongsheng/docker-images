@@ -27,6 +27,6 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/nacos:3.1.0 docker://registry.cn-hangzhou.aliyuncs.com/huangkongsheng/nacos:3.1.0
+         skopeo copy docker://docker.io/tdengine:3.3.8.4 docker://registry.cn-hangzhou.aliyuncs.com/huangkongsheng/tdengine:3.3.8.4
          
          
