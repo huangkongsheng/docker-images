@@ -27,6 +27,6 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/tdengine/tdengine:3.3.6.13 docker://registry.cn-hangzhou.aliyuncs.com/huangkongsheng/tdengine:3.3.6.13
+         skopeo copy docker://docker.io/bitnamicharts/milvus:2.6.4 docker://registry.cn-hangzhou.aliyuncs.com/huangkongsheng/bitnamicharts/milvus:2.6.4
          
          
