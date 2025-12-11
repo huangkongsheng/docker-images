@@ -27,6 +27,6 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/milvusdb/milvus:v2.6.7 docker://registry.cn-hangzhou.aliyuncs.com/huangkongsheng/milvusdb/milvus:v2.6.7
+         skopeo copy docker://docker.io/r/milvusdb/milvus:v2.6.7 docker://registry.cn-hangzhou.aliyuncs.com/huangkongsheng/milvusdb/milvus:v2.6.7
          
          
