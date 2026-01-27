@@ -27,6 +27,6 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/quay.io/coreos/etcd:v3.5.25 docker://registry.cn-hangzhou.aliyuncs.com/huangkongsheng/etcd:v3.5.25
+         skopeo copy docker://f7ec23cd243e0f54aa4846e2bb4c412a.d.1ms.run/bladex/alpine-java:openjdk17_cn_slim docker://registry.cn-hangzhou.aliyuncs.com/huangkongsheng/alpine-java:openjdk17_cn_slim
          
          
