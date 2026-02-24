@@ -27,6 +27,6 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://f7ec23cd243e0f54aa4846e2bb4c412a.d.1ms.run/bladex/alpine-java:openjdk17_cn_slim docker://registry.cn-hangzhou.aliyuncs.com/huangkongsheng/alpine-java:openjdk17_cn_slim
+         skopeo copy docker://seataio/seata-server:1.8.0.2 docker://registry.cn-hangzhou.aliyuncs.com/huangkongsheng/seata-server:1.8.0.2
          
          
