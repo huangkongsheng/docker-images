@@ -27,6 +27,6 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://seataio/seata-server:1.8.0.2 docker://registry.cn-hangzhou.aliyuncs.com/huangkongsheng/seata-server:1.8.0.2
+         skopeo copy docker://1panel/openclaw:2026.3.2 docker://registry.cn-hangzhou.aliyuncs.com/huangkongsheng/openclaw:2026.3.2
          
          
