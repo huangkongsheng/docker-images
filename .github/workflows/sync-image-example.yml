@@ -27,6 +27,6 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://1panel/openresty:1.27.1.2-5-1-focal docker://registry.cn-hangzhou.aliyuncs.com/huangkongsheng/openresty:1.27.1.2-5-1-focal
+         skopeo copy docker://emqx/emqx-enterprise:6.1.1-sf docker://registry.cn-hangzhou.aliyuncs.com/huangkongsheng/emqx-enterprise:6.1.1-sf
          
          
