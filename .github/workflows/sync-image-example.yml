@@ -28,5 +28,6 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
          skopeo copy docker://emqx/emqx-enterprise:6.1.1-sf docker://registry.cn-hangzhou.aliyuncs.com/huangkongsheng/emqx-enterprise:6.1.1-sf
+         skopeo copy --all docker://smallstep/step-ca:0.30.2 docker://registry.cn-hangzhou.aliyuncs.com/huangkongsheng/step-ca:0.30.2
          
          
